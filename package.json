@@ -1,0 +1,20 @@
+{
+  "name": "@azhder/belnap",
+  "version": "0.0.1",
+  "description": "4-value logic",
+  "author": "azder <azhder@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "start": "NODE_OPTIONS=--experimental-vm-modules jest --watch",
+    "eslint": "eslint ./"
+  },
+  "devDependencies": {
+    "@azhder/eslint-config-azder": "0.0.7",
+    "eslint": "^7.19.0",
+    "jest": "^26.6.3"
+  }
+}
